@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    padding: 10px;
+}
+header{
+    width: 100vw;
+    background-color: brown;
+    height: 50px;
+}
