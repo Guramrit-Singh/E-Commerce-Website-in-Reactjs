@@ -7,8 +7,32 @@
     display: flex;
     padding: 10px;
 }
-header{
+#navbar{
     width: 100vw;
-    background-color: brown;
-    height: 50px;
+    /* background-color:lightblue; */
+    /* height: 50px; */
+    /* position:sticky; */
+}
+main{
+    max-width:100vw;
+    display: flex;
+    justify-content: center;
+    /* min-height:100vh; */
+    /* background-color: lightsteelblue; */
+    overflow: hidden; 
+}
+.slider{
+    width:80vw;
+    /* background-color: lightblue; */
+    /* margin: 30px 10px;
+     */
+     margin-top: 20px;
+    min-height:450px;
+}
+footer{
+    /* background-color: lightskyblue; */
+}
+.topproducts ,.offers, .best-seller{
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
